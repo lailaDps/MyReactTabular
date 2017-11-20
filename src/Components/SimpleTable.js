@@ -1,7 +1,7 @@
 import * as Table from 'reactabular-table';
 import React, {Component} from 'react';
 import ReactDOM from 'react-dom';
-
+import axios from 'axios';
 
 class SimpleTable extends Component{         
   constructor(props) {
