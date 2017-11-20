@@ -1,0 +1,62 @@
+{
+    "Piece":{
+            "REF":"96182423"
+            "NOM":"JT ENTREE PORTE AVD"
+    },
+    [{
+              "ID" :"UR-0028112"
+              "LIBELLE":"Jeu X avec le coté de caisse "
+              "TYPE_CARACT":"Quantitatif"
+              "CLASSE_GRAV":"SR"
+              "LOI_STAT":"LOI NORMALE"
+              "TARGET_VAL":"12"
+              "LLS":"-0,8"
+              "ULS":"0,8"
+              "TNC_OBJ":"1450"
+              "CP_OBJ":"1"
+              "CPK_OBJ":"1,33"
+              "DELTA_OBJ":"0,125"
+      },
+      {
+              "ID" :"UR-0038112"
+              "LIBELLE":"Affleurement Y feu coté de caisse"
+              "TYPE_CARACT":"Quantitatif"
+              "CLASSE_GRAV":"R"
+              "LOI_STAT":"RAYLEIGH"
+              "TARGET_VAL":"-12,3"
+              "LLS":"-0,75"
+              "ULS":"0,75"
+              "TNC_OBJ":"1320"
+              "CP_OBJ":"1"
+              "CPK_OBJ":"1,78"
+              "DELTA_OBJ":"0,145"
+      },
+      {
+              "ID" :"UR-0038112"
+              "LIBELLE":"Affleurement Y feu coté de caisse"
+              "TYPE_CARACT":"Quantitatif"
+              "CLASSE_GRAV":"R"
+              "LOI_STAT":"RAYLEIGH"
+              "TARGET_VAL":"-12,3"
+              "LLS":"-0,75"
+              "ULS":"0,75"
+              "TNC_OBJ":"1320"
+              "CP_OBJ":"1"
+              "CPK_OBJ":"1,78"
+              "DELTA_OBJ":"0,145"
+      },
+      {
+              "ID" :"UR-0058112"
+              "LIBELLE":"Jeu X avec le coté de caisse"
+              "TYPE_CARACT":"Quantitatif"
+              "CLASSE_GRAV":"SR"
+              "LOI_STAT":" DEFAUT DE FORME"
+              "TARGET_VAL":"44"
+              "LLS":"-0,8"
+              "ULS":"0,8"
+              "TNC_OBJ":"1369"
+              "CP_OBJ":"1,63"
+              "CPK_OBJ":"1,98"
+              "DELTA_OBJ":"0,478"
+      }]
+}
