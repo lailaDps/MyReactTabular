@@ -2,7 +2,7 @@ import * as Table from 'reactabular-table';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import   '../style/tableau.css';
-import mesure from '../utils/mesure.json';
+
 
 class SimpleTable extends Component {
   constructor(props) {
@@ -84,7 +84,7 @@ class SimpleTable extends Component {
   }
 
   render() {
-<p> laila </p>
+
     return (
      
       <Table.Provider className="pure-table pure-table-striped"

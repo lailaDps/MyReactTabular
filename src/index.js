@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 //import App from './App';
-import SimpleTable from './Components/SimpleTable'
+import MyListMesure from './Components/MyListMesure';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<SimpleTable />, document.getElementById('root'));
+ReactDOM.render(<MyListMesure />, document.getElementById('root'));
 registerServiceWorker();

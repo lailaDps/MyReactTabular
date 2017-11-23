@@ -24,7 +24,7 @@ class MyListMesure extends Component {
                 return response;
             })
             .then((response) => response.json())
-            .then((mesures) => this.setState({ Mesures })) // ES6 property value shorthand for { mesure: mesures }
+            .then((mesures) => this.setState({ mesures })) // ES6 property value shorthand for { mesure: mesures }
             .catch(() => this.setState({ hasErrored: true }));
     }
     componentDidMount() {
@@ -41,8 +41,8 @@ class MyListMesure extends Component {
           return (
                 <ul>
                     {this.state.mesures.map((mesure) => (
-                        <li key={mesure.LIBELLE}>
-                            {mesure.Mesure.Val}
+                        <li key={mesure.Fournisseur}>
+                            {mesure.Usine}
                         </li>
                     ))}
                 </ul>
