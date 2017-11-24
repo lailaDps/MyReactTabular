@@ -1,9 +1,20 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import render from 'react-dom';
 import './index.css';
 //import App from './App';
 import MyListMesure from './Components/MyListMesure';
 import registerServiceWorker from './registerServiceWorker';
+import configureStore from './store/configureStore';
+import MylistMesure from './Components/MyListMesure';
 
-ReactDOM.render(<MyListMesure />, document.getElementById('root'));
+
+const store =configureStore();
+render (
+
+    <provider store={store}>
+    <MyListMesure/>
+    </provider>,document.getElementById('app')
+);
+
+
 registerServiceWorker();
